@@ -31,5 +31,5 @@ steps:
 
 - script: |
     set PYTHONPATH=%PYTHONPATH%
-    Pytest -s -v POM/tests/homepage/login_tests.py 
+    Pytest -s -v POM/tests/test_suite_demo.py --browser chrome 
   displayName: 'pytest'
